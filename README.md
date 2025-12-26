@@ -20,9 +20,9 @@ and support data-driven retention strategies.
 - Power BI (DAX Measures, Visual Analytics)
 - CSV-based output integration
 
-# ----------------------------------------------------
+
 # Machine Learning Pipeline (Python Workflow)
-# ----------------------------------------------------
+
 1. Load Telco Customer Churn dataset
 2. Drop unnecessary columns (customerID)
 3. Convert TotalCharges to numeric and handle missing values
@@ -57,9 +57,7 @@ and support data-driven retention strategies.
 - Electronic payment users churn at higher rates
 - Fiber optic customers churn more compared to DSL users
 
-# ----------------------------------------------------
 # Power BI Churn Analytics Dashboard (Business Layer)
-# ----------------------------------------------------
 # Dataset Source:
 - Same processed dataset used in machine learning pipeline
 - Integrated with exported churn probability outputs
@@ -102,7 +100,6 @@ Churn Rate % = DIVIDE(COUNTROWS(Churned_Customers), COUNTROWS(All_Customers))
 - Supports pricing and contract policy optimization
 - Bridges ML predictions with real-world business analytics
 
-# ----------------------------------------------------
 # Future Enhancements:
 - SMOTE for class imbalance improvement
 - XGBoost and Gradient Boosted Trees comparison
